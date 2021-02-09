@@ -1,0 +1,93 @@
+header{
+    width: 768px;
+    height: 250px;
+    background-color: green;
+    background-image: url(header.jpg);
+}
+main{
+    width: 618px;
+    height: 1200px;
+    background-color: white;
+    padding: inherit;
+    float: left;}
+footer{
+    width: 768px;
+    height: 50px;
+    background-color: #5F5F5F;
+    float: left;
+}
+body {
+    color: #211F1F;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: small;
+    background-image: url(bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+  }
+#container{
+    width: 768px;
+    height: 4632px;
+    background-color: white;
+    margin: auto		
+}
+/*flost aside next to main*/aside {
+    width: 150px;
+    height: 4296px;
+    background-color: #8D9290;
+    float: left;
+}
+h1{
+    color: #6AE7FE;
+    font-family: lust-stencil,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 45px
+		
+}
+h3 {
+    font-size: small;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+main article h1 {
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+main article p {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* [disabled]float: right; */
+}
+main article img {
+    float: right;
+}
+article {
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+main {
+    height: 1900px;
+}
+.floatLeft{float:left}
+nav  {
+    width: 768px;
+    height: 50px;
+}
+
+nav ol li {
+    float: left;
+    display: block;
+    width: 60px;
+	font-family: lust-stencil-fine, 'sans-serif;'; 
+
+}
+
+#container nav ol li{
+    margin: auto;
+    width: 100px
+}
